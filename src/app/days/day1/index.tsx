@@ -5,7 +5,7 @@ import { Link } from 'expo-router'
 const DayDetailsScreen = () => {
   return (
     <View>
-      <Text>Day 1 Details Screen</Text>
+      <Text style={{ fontFamily: "AmaticBold", fontSize: 100 }}>Day 1 Details Screen</Text>
       <Link href={`/`}>Go Back</Link>
     </View>
   )
