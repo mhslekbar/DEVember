@@ -1,10 +1,10 @@
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { router, Stack } from 'expo-router'
 import { FontAwesome5 } from "@expo/vector-icons"
 import { StatusBar } from 'expo-status-bar'
 import { Directions, Gesture, GestureDetector } from 'react-native-gesture-handler'
-import Animated, { BounceInRight, BounceOutLeft, FadeIn, FadeOut, SlideInLeft, SlideInRight, SlideOutLeft, SlideOutRight } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeOut, SlideInRight, SlideOutLeft } from 'react-native-reanimated';
 
 const onboardingSteps = [
   {
