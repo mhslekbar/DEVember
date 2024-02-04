@@ -1,6 +1,6 @@
 import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React, { useState } from 'react'
-import MarkdownDisplay from '@/components/core/day3/MarkdownDisplay'
+import MarkdownDisplay from '@/components/day3/MarkdownDisplay'
 import { TextInput } from 'react-native-gesture-handler'
 
 const template: any = `
